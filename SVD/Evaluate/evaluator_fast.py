@@ -1,5 +1,5 @@
 
-from Evaluate.evaluate_dataset import EvaluationData
+from Evaluate.evaluate_dataset_fast import EvaluationData
 from Evaluate.evaluate_algorithm import EvaluatedAlgorithm
 
 class Evaluator:
