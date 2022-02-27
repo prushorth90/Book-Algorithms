@@ -1,6 +1,5 @@
-
-from evaluate_dataset import EvaluationData
-from evaluate_algorithm import EvaluatedAlgorithm
+from Evaluate.evaluate_dataset import EvaluationData
+from Evaluate.evaluate_algorithm import EvaluatedAlgorithm
 
 class Evaluator:
 

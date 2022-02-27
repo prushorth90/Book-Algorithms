@@ -6,8 +6,8 @@ Created on Thu May  3 10:45:33 2018
 
 @author: Frank
 """
-from recommender_metrics import RecommenderMetrics
-from evaluate_dataset import EvaluationData
+from Evaluate.recommender_metrics import RecommenderMetrics
+from Evaluate.evaluate_dataset import EvaluationData
 
 class EvaluatedAlgorithm:
 
