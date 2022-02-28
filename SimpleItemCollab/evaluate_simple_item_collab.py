@@ -43,7 +43,7 @@ for uiid in range(trainSet.n_users):
     for itemID, rating in kNeighbors:
         similarityRow = simsMatrix[itemID]
         for innerID,score in enumerate(similarityRow):
-            candidates[innerID] += score * (rating / 10.0) 
+            candidates[innerID] += score * (rating / 10.0)
 
     # Build a dictionary of stuff the user has already seen
     watched = {}
