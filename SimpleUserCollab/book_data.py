@@ -13,7 +13,7 @@ class BookData:
     bookID_to_name = {}
     name_to_bookID = {}
     ratingsPath = '../book-review-dataset/BX-Book-Ratings3.csv'
-    booksPath = '../book-review-dataset/BX_Books.csv'
+    booksPath = '../book-review-dataset/BX-Books2.csv'
 
     def loadBookData(self):
 
